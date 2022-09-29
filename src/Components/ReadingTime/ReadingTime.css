@@ -1,0 +1,8 @@
+.addBreak div{
+    cursor: pointer;
+}
+
+.addBreak div:hover{
+    background-color: white;
+    color: black;
+}
