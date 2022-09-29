@@ -2,14 +2,16 @@ import React, { useState } from 'react';
 import Profile from '../../images/profile.png'
 import './ReadingTime.css'
 
-const ReadingTime = () => {
+const ReadingTime = (props) => {
+
+
     // Using state to updating break Time
     const [breakTime, setBreakTime] = useState(0)
     const breakTimeControl =(props) =>{
         setBreakTime(props)
 
     }
-    console.log(breakTime);
+
     return (
         <div className='lg:w-80 w-100 p-4'>
             {/* Profile section */}
@@ -54,7 +56,7 @@ const ReadingTime = () => {
            
             <div className='w-[18rem] h-[80px] bg-[#2d1b69] mb-4 rounded-xl flex justify-between items-center p-4'>
                 <div className='text-white font-bold text-xl'>Reading Time:</div>
-                <div><span className='text-white text-lg'>{}</span> Hours</div>
+                <div><span className='text-white text-lg'>{props.readingTime}</span> Hours</div>
             </div>
             <div className='w-[18rem] h-[80px] bg-[#2d1b69] rounded-xl flex justify-between items-center p-5'>
                 <div className='text-white font-bold text-xl'>Break Time:</div>

@@ -12,18 +12,25 @@ const Main = () => {
         .then(data => setBooks(data))
     },[])
 
-    
+    // Using start to update reading Time
+    const [readingTimeNew, handleReading] = useState(0)
+    // Using function to add reading Time
+    const readingTime =(props)=>{
+
+        const readingTimefloat = parseFloat(props)
+        handleReading(readingTimeNew + readingTimefloat)
+    }
 
 
     return (
         <div>
            <div className='Main '>
                 <div className='book'> 
-                {books.map(book=><BookCard books={book}></BookCard>)}
+                {books.map(book=><BookCard key={book._id} books={book} readHandle={readingTime}></BookCard>)}
             
                 </div>
             <div className='bg-[#20134e] mt-8 h-[800px] rounded'>
-                <ReadingTime></ReadingTime>
+                <ReadingTime readingTime={readingTimeNew} ></ReadingTime>
 
             </div>
 
