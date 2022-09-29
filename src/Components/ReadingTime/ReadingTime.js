@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Profile from '../../images/profile.png'
+import {toastHandle} from '../Toast/ToastControler'
 import { HandleDB, getValueFromLocalStorage } from "../HandleningDB/HandelingDB";
+
 import './ReadingTime.css'
 
 const ReadingTime = (props) => {
@@ -88,7 +90,7 @@ const ReadingTime = (props) => {
 
             {/* Activity compleate button */}
             <div>
-                <button className='w-[18rem] h-[40px] rounded-xl bg-[#2d1b69] mt-28 text-white font-bold text-lg'>Activity Completed</button>
+                <button  className='w-[18rem] h-[40px] rounded-xl bg-[#2d1b69] mt-28 text-white font-bold text-lg'>Activity Completed</button>
             </div>
 
            
