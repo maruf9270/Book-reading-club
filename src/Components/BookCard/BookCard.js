@@ -27,7 +27,7 @@ const BookCard = (props) => {
                         <div className="badge badge-outline">{language}</div> 
                         
                     </div>
-                    <button onClick={()=>props.readHandle(readingTime)} className='addList absolute bottom-0 left-0 bg-info text-lg font-bold'>Add To List</button>
+                    <button onClick={()=>props.readHandle(readingTime)} className='addList absolute bottom-0 left-0 btn btn-info text-white text-lg font-bold'>Add To List</button>
                 </div>
             </div>
 

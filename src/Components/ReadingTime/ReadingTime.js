@@ -90,7 +90,7 @@ const ReadingTime = (props) => {
 
             {/* Activity compleate button */}
             <div>
-                <button onClick={()=>toastHandle()} className='w-[18rem] h-[40px] rounded-xl bg-[#2d1b69] mt-28 text-white font-bold text-lg'>Activity Completed</button>
+                <button onClick={()=>toastHandle()} className='w-[18rem] h-[40px] rounded-xl btn btn-info mt-28 text-white font-bold text-lg'>Activity Completed</button>
             </div>
 
            
