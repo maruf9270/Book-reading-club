@@ -3,7 +3,7 @@ import './BookCard.css'
 
 const BookCard = (props) => {
 
-    const {name,description,picture,language,readingTime,_id,index} = props.books
+    const {name,description,picture,language,readingTime} = props.books
 
   
     
@@ -27,7 +27,7 @@ const BookCard = (props) => {
                         <div className="badge badge-outline">{language}</div> 
                         
                     </div>
-                    <button onClick={()=>props.readHandle(readingTime)} className='addList absolute bottom-0 left-0 btn btn-info text-white text-lg font-bold'>Add To List</button>
+                    <button onClick={()=>props.readHandle(readingTime)} className='addList absolute bottom-0 left-0 btn btn-info text-white text-[15px] font-bold'>Add To List</button>
                 </div>
             </div>
 

@@ -14,7 +14,7 @@ const ReadingTime = (props) => {
         
         HandleDB(props);
         const time = getValueFromLocalStorage()
-        console.log(time);
+       
         setBreakTime(time)
        
         
