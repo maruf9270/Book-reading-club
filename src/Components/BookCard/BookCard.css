@@ -1,0 +1,14 @@
+.bookCardImg{
+    width: 18rem;
+    height: 16rem;
+    object-fit: fill;
+}
+.bookCard{
+    height: 600px;
+}
+.addList{
+    height: 50px;
+    width: 100%;
+    
+
+}

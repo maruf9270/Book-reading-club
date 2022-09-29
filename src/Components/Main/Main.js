@@ -1,16 +1,32 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import BookCard from '../BookCard/BookCard';
+import './Main.css'
 
 const Main = () => {
+    // Fetching data
+    const [books, setBooks] = useState([]);
+    useEffect(()=>{
+        fetch('booklist.json')
+        .then(res => res.json())
+        .then(data => setBooks(data))
+    },[])
+
+    
+
+
     return (
         <div>
-            <div className='grid overflow-hidden grid-cols-12 grid-rows-1 lg:gap-5 lg:w-11/12'>
-                <div className='box row-start-1 col-start-1 col-end-8 bg-slate-500' >
-                    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+           <div className='Main'>
+                <div className='book'> 
+                {books.map(book=><BookCard books={book}></BookCard>)}
+            
                 </div>
-                <div className='box row-start-1 col-start-8 col-end-12 bg-black'>
-                    l;llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-                </div>
+            <div className='bg-slate-800'>
+                
+
             </div>
+
+           </div>
         </div>
     );
 };

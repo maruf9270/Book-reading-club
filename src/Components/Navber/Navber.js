@@ -5,7 +5,7 @@ const Navber = () => {
     return (
         <div>
             {/* Navigation starts from here */}
-            <div className="navbar bg-[#594094] lg:w-11/12 mx-auto rounded mt-2">
+            <div className="navbar bg-[#20134e] lg:w-11/12 mx-auto rounded mt-2">
                     <div className="navbar-start">
                         <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
