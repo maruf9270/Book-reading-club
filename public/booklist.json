@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "6335190015e6485bfd26339a",
+    "index": 0,
+    "name": "Holy Quran",
+    "description": "Qurʾān , or Koran, Sacred scripture of Islam, regarded by Muslims as the infallible word of God, revealed to the Prophet Muhammad. The book, first compiled in its authoritative form in the 7th century, consists of 114 chapters (sūrahs) of varying length, written in Arabic.",
+    "isActive": true,
+    "picture": "https://i.ibb.co/YWJJ8PS/quran.jpg",
+    "language": "Arabic",
+    "readingTime": "2"
+  },
+  {
+    "_id": "633519004e9313efaca673e1",
+    "index": 1,
+    "name": "Harry Potter and the Prisoner of Azkaban",
+    "description": "Thirteen-year-old Harry Potter spends another unhappy summer at the Dursleys. After Aunt Marge insults Harry and his deceased parents, an angry Harry accidentally inflates her. Fearing expulsion from Hogwarts, he runs away. On a dark street, a large black dog watches Harry. Startled, Harry stumbles backward, causing his wand to emit sparks.",
+    "isActive": false,
+    "picture": "https://i.ibb.co/FzYZrr5/azkaban.jpg",
+    "language": "English",
+    "readingTime": "1"
+  },
+  {
+    "_id": "63351900a9e63f62ef164743",
+    "index": 2,
+    "name": "প্রোগ্রামিংয়ের বলদ টু বস",
+    "description": "হাবুল দ্য গ্রেট ঝংকার মাহবুব থাকতে সেটা কি আর হবে? কাজে প্রোগ্রামিং-এর চিপাচাপা দিয়ে বলদরা কীভাবে বস হয়ে উঠতে পারে তার জন্য ঝংকারের এই বই। এর আগের হাবলুদের জন্য প্রোগ্রামিং বইয়ে মাহবুব চেষ্টা করেছে মজা করে প্রোগ্রামিংয়ের মূল বিষয়গুলো ধরিয়ে দেওয়ার। এবার আরেক ধাপ এগিয়ে হাবলুদের জন্য ডাটা স্ট্রাকচার, অ্যালগরিদম, অবজেক্ট, ক্লাস, অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং ইত্যাদির চিপাচাপার সন্ধান করেছে। এর আগে কেইবা বলেছে হাজিরা খাতাটাই একটা ডাটা স্ট্রাকচার আর কেইবা খড়ের গাঁদাতে সূঁচ খোঁজার চেষ্টা করেছে প্রোগ্রামিং জগতে! ঝংকারের ঢংয়ে প্রোগ্রামিংয়ের জগতে বলদ থেকে বস হয়ে ওঠার এই এক আশ্চর্য হাবলামি।",
+    "isActive": false,
+    "picture": "https://i.ibb.co/BZnctNv/bolod.jpg",
+    "language": "Bengali",
+    "readingTime": "1"
+  },
+  {
+    "_id": "63351900284c9516bd6df375",
+    "index": 3,
+    "name": "Harry Potter and the Chamber of Secrets",
+    "description": "While spending the summer at the Dursleys, twelve-year-old Harry Potter is visited by a house-elf named Dobby. He warns that Harry is in danger and must not return to Hogwarts. Harry refuses, so Dobby magically ruins Aunt Petunia and Uncle Vernon's dinner party. A furious Uncle Vernon locks Harry into his room in retaliation. The Ministry of Magic immediately sends a notice accusing Harry of performing underage magic and threatening dismissal from Hogwarts.",
+    "isActive": true,
+    "picture": "https://i.ibb.co/QjX9p74/chamber-OFSecreat.jpg",
+    "language": "English",
+    "readingTime": "1"
+  },
+  {
+    "_id": "633519002b1c25413897d8df",
+    "index": 4,
+    "name": " Harry Potter and the Goblet of Fire",
+    "description": "Harry Potter has a nightmare in which a Muggle caretaker is murdered after overhearing a plot by Lord Voldemort, Peter Pettigrew and another man whom Harry does not recognise. Harry, along with the Weasleys, Hermione, and Cedric and Amos Diggory attend the Quidditch World Cup. After the match, Death Eaters attack the tournament and the man from Harry's nightmare casts the Dark Mark.",
+    "isActive": false,
+    "picture": "https://i.ibb.co/nMvjnwQ/goblet.jpg",
+    "language": "English",
+    "readingTime": "1.5"
+  },
+  {
+    "_id": "63351900e0769c6fe956f020",
+    "index": 5,
+    "name": "প্রোগ্রামিংয়ের চৌদ্দগোষ্ঠী",
+    "description": "নতুন প্রোগ্রামিং শিখে পরবর্তীতে কি করা উচিত? সফটওয়্যার কোম্পানিতে চাকরি পাওয়ার জন্য কী কী করা প্রয়োজন? যাদের মাথায় দীর্ঘদিন ধরে এরকম প্রশ্ন ঘুরছে তাদের জন্য বই মেলায় এসেছে ‘প্রোগ্রামিংয়ের চৌদ্দগোষ্ঠী’ নামে একটি বই।বইটি লিখেছেন ঝংকার মাহবুব। তিনি শিকাগো শহরে নিলসেন কোম্পানিতে সিনিয়র ওয়েব ডেভেলপার হিসেবে কর্মরত আছেন।যারা প্রোগ্রামিংয়ের বেসিক জিনিসগুলা জানেন কিংবা একজন পরিপূর্ণ প্রোগ্রামার হতে চান তাদের জন্য বইটি বিশেষ সহায়ক হবে। প্রোগ্রামিং বিষয়ক ইন্টারিভিউতে কোম্পানিগুলো কোন এঙ্গেলে প্রশ্ন করে থাকে, সেই প্রশ্নগুলোর উত্তর কী হবে বইটিতে এই বিষয়গুলো সহজ ভাষায় তুলে ধরা হয়েছে",
+    "isActive": false,
+    "picture": "https://i.ibb.co/7ny12LM/gusti.jpg",
+    "language": "Bengali",
+    "readingTime": "1.5"
+  },
+  {
+    "_id": "633519000bf0b74ea85d94e8",
+    "index": 6,
+    "name": "হাবলুদের জন্য প্রোগ্রামিং",
+    "description": "অতি সম্প্রতি বাংলাদেশের শিক্ষাঙ্গনে উন্নয়ন অনুকূল বেশ কিছু সংস্কৃতি সংযোজিত হয়েছে যার মধ্যে নানা বিষয়ের উপর অলিম্পিয়াড, বিশ্ববিদ্যালয়ের ছাত্রদের জন্য প্রোগ্রামিং প্রতিযোগিতা। আবার গত ১২-১৩ বছর ধরে প্রাক-বিশ্ববিদ্যালয়ের ছাত্রদের জন্যও প্রোগ্রামিং প্রতিযোগিতা। অবাক করা বিষয় হলো আমাদের স্কুল কলেজের ছাত্ররা প্রোগ্রামিংকে চ্যালেঞ্জ হিসাবে নিয়েছে এবং ইতিমধ্যে বেশ সফলতাও অর্জন করেছে। যেমন সকল অলিম্পিয়াডের মধ্যে প্রথম সিলভার মেডেল পেয়েছে সিটি কলেজের মো. আবীরুল ইসলাম ২০০৯ সালে। তাও আবার উপমহাদেশের সকল প্রতিযোগীর মধ্যে শ্রেষ্ঠ",
+    "isActive": false,
+    "picture": "https://i.ibb.co/pd7DzSB/hablu.jpg",
+    "language": "Bengali",
+    "readingTime": "1.5"
+  },
+  {
+    "_id": "63351900dcdf2fb57c34812c",
+    "index": 7,
+    "name": "Harry Potter and the Philosopher's Stone",
+    "description": "Harry Potter lives with his abusive aunt and uncle, Vernon and Petunia Dursley and their bullying son, Dudley. On Harry's eleventh birthday, a half-giant named Rubeus Hagrid personally delivers an acceptance letter to Hogwarts School of Witchcraft and Wizardry, revealing that Harry's parents, James and Lily Potter, were wizards. When Harry was one year old, an evil and powerful dark wizard, Lord Voldemort, murdered his parents. Harry survived Voldemort's killing curse that rebounded off his forehead and seemingly destroyed the Dark Lord, leaving a lightning bolt-shaped scar on his forehead. Unknown to Harry, he is famous in the wizarding world.",
+    "isActive": false,
+    "picture": "https://i.ibb.co/B61CD5k/phisopher.jpg",
+    "language": "English",
+    "readingTime": "1"
+  },
+  {
+    "_id": "63351900b2456ffe50f46a06",
+    "index": 8,
+    "name": "রিচার্জ your ডাউন ব্যাটারি",
+    "description": "হাবলু দ্য গ্রেট ঝংকার মাহবুব থাকতে তাদের আর হতাশ হয়ে বসে থাকার উপায় নেই। ঝংকার লিখে ফেলেছে তাদের জন্য নতুন বই। ডাউন হয়ে যাওয়া ব্যাটারি রিচার্জ করতে ঝংকার মাহবুবের এই বই— রিচার্জ your ডাউন ব্যাটারি। দেশের লাখ লাখ পিছিয়ে পড়া তরুণ, যারা ঘুরে দাঁড়াতে চায়, তাদের জন্য এই বই। কারণ, হাবলুদের শুধু প্রোগ্রামিং শিখলেই হবে না। তাদের হ্যাঁচকা টান দিয়ে সামনে এগোতে হবে। আটকে গেলে জোরসে ঠেলা দিতে হবে। আবার যারা হতাশ হয়ে ভেঙে পড়েছে, তাদেরও এই বই বিদ্যুৎস্পৃষ্টের মতো চমকে দিতে পারে। তারা গা-ঝাড়া দিয়ে সামনের দিকে এগিয়ে যাওয়ার অনেক প্রণোদনা পাবে। শেষ কথা, শুরুর প্যারায় যাদের কথা বলেছি, তাদেরও সমান কাজে লাগবে এই বই। কারণ ব্যাটারি তো যেকোনো সময় ডাউন হতেই পারে।",
+    "isActive": false,
+    "picture": "https://i.ibb.co/tHM95x3/recharge.jpg",
+    "language": "Bengali",
+    "readingTime": "1"
+  }
+]
