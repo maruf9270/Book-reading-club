@@ -35,7 +35,7 @@ const ReadingTime = (props) => {
    
 
     return (
-        <div className='lg:w-80 w-100 p-4'>
+        <div className='lg:w-80 w-full p-4 cardbook'>
             {/* Profile section */}
            <div className='profile flex mt-5'>
                 <div className='img'><img src={Profile} className='h-[50px} w-[50px]' alt="" /></div>
