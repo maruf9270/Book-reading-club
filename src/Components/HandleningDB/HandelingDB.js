@@ -1,19 +1,23 @@
 const HandleDB=(props)=>{
    
-    if(localStorage.getItem('break-time')){
-        const breakTime = localStorage.getItem('break-time')
-        const breakTimeParsed = JSON.parse(breakTime)
-        setToLocalStorage(breakTimeParsed,props)
-
+    if(localStorage.getItem('break-time'))
+    {
+        let time = localStorage.getItem('break-time')
+        time = props;
+        localStorage.setItem('break-time',time)
     }
     else{
-        const breakTime={}
-        setToLocalStorage(breakTime,props)
+        localStorage.setItem('break-time',props)
     }
-}
-
-const setToLocalStorage =(props) =>{
-    
-
 
 }
+
+
+const getValueFromLocalStorage = () =>{
+    const time = localStorage.getItem('break-time')
+    return time
+  
+}
+
+
+export {HandleDB, getValueFromLocalStorage}

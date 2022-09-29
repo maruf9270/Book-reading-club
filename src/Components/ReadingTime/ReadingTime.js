@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Profile from '../../images/profile.png'
+import { HandleDB, getValueFromLocalStorage } from "../HandleningDB/HandelingDB";
 import './ReadingTime.css'
 
 const ReadingTime = (props) => {
@@ -8,9 +9,28 @@ const ReadingTime = (props) => {
     // Using state to updating break Time
     const [breakTime, setBreakTime] = useState(0)
     const breakTimeControl =(props) =>{
-        setBreakTime(props)
-
+        
+        HandleDB(props);
+        const time = getValueFromLocalStorage()
+        console.log(time);
+        setBreakTime(time)
+       
+        
     }
+
+    // using effect to load data from local storage
+ 
+    useEffect(()=>{
+        const time = getValueFromLocalStorage()
+        if(time){
+            setBreakTime(time)
+            
+        }
+        else{
+            setBreakTime(0)
+        }
+        },[])
+   
 
     return (
         <div className='lg:w-80 w-100 p-4'>
@@ -40,6 +60,8 @@ const ReadingTime = (props) => {
 
            {/* Add a break section */}
            <h3 className='mt-7 text-lg text-white'>Add A Break</h3>
+           
+          
            <div className='text-white addBreak mt-0 w-[18rem] h-[80px] bg-[#2d1b69] rounded-xl flex justify-around items-center'>
                 <div onClick={()=>breakTimeControl(1)} className='rounded-full bg-[#20134e] w-[50px] h-[50px] flex justify-center items-center'>1Min</div>
                 <div onClick={()=>breakTimeControl(2)} className='rounded-full bg-[#20134e] w-[50px] h-[50px] flex justify-center items-center'>2Min</div>
